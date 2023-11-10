@@ -62,7 +62,7 @@ spec:
         -   http:
                 paths:
                     -  pathType: Prefix 
-                       path: /golden-retriever(/|$)(.*)
+                       path: /golden-retriever/canary(/|$)(.*)
                        backend:
                           service:
                             name: golden-retriever-microservice-service
